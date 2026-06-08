@@ -223,19 +223,3 @@ Validation Result
 * Historical analysis tracking
 * Confidence scoring
 * Batch image processing
-
----
-
-## Demo
-
-Frontend:
-
-```text
-[Add Firebase URL]
-```
-
-Backend API:
-
-```text
-[Add Cloud Run URL]
-```
