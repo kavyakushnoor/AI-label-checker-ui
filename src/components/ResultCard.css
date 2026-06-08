@@ -1,0 +1,97 @@
+.result-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:16px;
+
+    margin-top:25px;
+
+    box-shadow:
+      0 4px 18px rgba(0,0,0,.08);
+
+}
+
+.status-banner{
+
+    padding:12px;
+
+    border-radius:10px;
+
+    color:white;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+
+}
+
+.success{
+
+    background:#2e7d32;
+
+}
+
+.warning{
+
+    background:#ed6c02;
+
+}
+
+.error{
+
+    background:#d32f2f;
+
+}
+
+.summary-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:15px;
+
+    margin:20px 0;
+
+}
+
+.summary-grid div{
+
+    background:#f4f4f4;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+}
+
+.field-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    border-bottom:1px solid #eee;
+
+    padding:10px 0;
+
+}
+
+.ocr-box{
+
+    background:#fafafa;
+
+    padding:15px;
+
+    border-radius:8px;
+
+    max-height:180px;
+
+    overflow:auto;
+
+}
